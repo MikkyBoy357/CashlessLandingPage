@@ -1,0 +1,11 @@
+h1 {
+	color: white;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.rotate-custom {
+	transform: rotate(30deg);
+	/* Replace 30 with your desired rotation angle */
+}

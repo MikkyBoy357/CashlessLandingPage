@@ -25,3 +25,8 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.rotate-custom {
+	transform: rotate(-2.47deg);
+	/* Replace 30 with your desired rotation angle */
+}
