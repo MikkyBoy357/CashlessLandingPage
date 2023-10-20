@@ -9,10 +9,10 @@ const Page2 = () => {
                 <div className="pl-32 pr-64 bg-[#1F1D26] h-screen flex items-center justify-center">
                     <div className='flex-col'>
                         <h1 className="mb-[-40px] text-[120px] font-bold" style={h1Styles}>Cashless</h1>
-                        <h1 className='mb-10'>
+                        <h1 className='mb-10 text-primary'>
                             Découvrez Cashless Card : une carte de paiement décentralisée innovante utilisant la technologie NFC pour des transactions rapides et sécurisées. Cette solution est spécialement conçue pour répondre aux besoins de plusieurs secteurs tels que les restaurants, les festivals, les grandes surfaces et les stations-service.
                         </h1>
-                        <h1>
+                        <h1 className='text-primary'>
                             Elle permet aux clients de payer rapidement et facilement avec une seule carte auprès d'un commerçant spécifique. Cashless Card offre une intégration aisée grâce à son application mobile marchand, dashboard web et API flexible (en cours de développement). Simplifiez vos paiements et bénéficiez d'une expérience utilisateur transparente et sécurisée dans divers secteurs avec Cashless Card dès aujourd'hui !
                         </h1>
 

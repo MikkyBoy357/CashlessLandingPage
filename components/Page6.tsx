@@ -4,7 +4,7 @@ import { h1Styles } from '@/pages'
 
 const Page6 = () => {
     return (
-        <div className='flex flex-col px-20 pt-16 h-screen bg-[#1F1D26] relative'>
+        <div className='flex flex-col px-20 pt-16 h-screen text-primary bg-[#1F1D26] relative'>
             <div className='flex flex-col'>
                 <Image
                     className='align-right self-end'
@@ -16,7 +16,7 @@ const Page6 = () => {
                 />
 
                 <div className='flex flex-wrap mt-20 justify-around gap-10'>
-                    <div className='flex h-32 w-64 bg-black justify-center'>
+                    <div className='flex h-32 w-64 justify-center'>
                         <Image
                             className='self-center'
                             src="/cashless_box.svg"

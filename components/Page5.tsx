@@ -4,7 +4,7 @@ import { h1Styles } from '@/pages'
 
 const Page5 = () => {
     return (
-        <div className='flex flex-col px-20 pt-16 h-screen bg-[#1F1D26]'>
+        <div className='flex flex-col text-primary px-20 pt-16 h-screen bg-[#1F1D26] overflow-x-hidden'>
             <div className='flex flex-col'>
                 <Image
                     className='align-right self-end'

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Page3 = () => {
     return (
-        <div className='flex flex-row h-screen bg-[#1F1D26]'>
+        <div className='flex flex-row h-screen bg-[#1F1D26] text-primary'>
             <div className="w-6/10 pl-4 bg-[rgb(31,29,38)]">
                 <div className="pl-20 pr-34 bg-[#1F1D26] h-screen flex items-center">
                     <div className='flex-col'>
@@ -22,7 +22,7 @@ const Page3 = () => {
                                 />
 
                             </div>
-                            <div>
+                            <div className=''>
                                 <h1 className='mb-5'>Gestion des tickets et des produits</h1>
                                 <li>Ventes en ligne et physiques (QR Code par mail et SMS)</li>
                                 <li>Accréditation billetterie professionnelle</li>

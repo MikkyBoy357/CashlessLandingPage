@@ -13,9 +13,8 @@ const Page1 = () => {
                     height={84}
                     priority
                 />
-                <h1 className="text-[160px] font-bold" >Card</h1>
+                <h1 className="text-[160px] text-primary font-bold" >Card</h1>
                 <h1 className="mt-[-40px] text-[160px] font-bold" style={h1Styles}>Presentation</h1>
-                <h1>Example Heading</h1>
                 <div className="absolute bottom-10 right-10">
                     <Image
                         src="/cashless.svg"
