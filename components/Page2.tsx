@@ -23,10 +23,10 @@ const Page2 = () => {
             <div className="w-1/2">
                 <div className="pl-32 pr-10 pt-20 bg-[#1F1D26] h-screen flex justify-center">
                     <div className='flex-col'>
-                        <h1 className="mb-[-40px] text-[120px] font-bold" style={h1Styles}>Festivals</h1>
-                        <h1 className="mb-[0px] text-[60px] font-bold" style={h1Styles}>Restaurants, <br />magasins, <br />supermarket, station service +</h1>
-                        <h1 className="mb-[0px] text-[45px] font-bold" style={h1Styles}>Support soft & hardware</h1>
-                        <h1 className="mb-[0px] text-[60px] font-bold" style={h1Styles}>Expérience client</h1>
+                        <h1 className="mb-[-10px] text-[90px] font-bold" style={h1Styles}>Festivals</h1>
+                        <h1 className="mb-[0px] text-[40px] font-bold" style={h1Styles}>Restaurants, <br />magasins, <br />supermarket, station service +</h1>
+                        <h1 className="mb-[10px] text-[40px] font-bold" style={h1Styles}>Support soft & hardware</h1>
+                        <h1 className="mb-[10px] text-[50px] font-bold" style={h1Styles}>Expérience client</h1>
                         <Image
                             src="/advantage.svg"
                             alt="Cashless Logo"
