@@ -57,17 +57,6 @@ const Page6 = () => {
                 </div>
 
             </div>
-
-            <div className="absolute bottom-0 left-0">
-                <Image
-                    src="/handbands.svg"
-                    alt="Cashless Logo"
-                    className="dark:invert"
-                    width={600}
-                    height={84}
-                    priority
-                />
-            </div>
         </div>
     )
 }

@@ -28,14 +28,6 @@ const Page9 = () => {
                     height={84}
                     priority
                 />
-                <Image
-                    src="/cashless.svg"
-                    alt="Cashless Logo"
-                    className="dark:invert"
-                    width={120}
-                    height={84}
-                    priority
-                />
             </div>
         </div>
     )

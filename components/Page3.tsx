@@ -107,16 +107,6 @@ const Page3 = () => {
                     </div>
                 </div>
             </div>
-            <div className="absolute bottom-10 right-10">
-                <Image
-                    src="/cashless.svg"
-                    alt="Cashless Logo"
-                    className="dark:invert"
-                    width={120}
-                    height={84}
-                    priority
-                />
-            </div>
         </div>
     )
 }

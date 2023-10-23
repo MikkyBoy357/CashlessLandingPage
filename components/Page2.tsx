@@ -6,7 +6,7 @@ const Page2 = () => {
     return (
         <div className="flex justify-center">
             <div className="w-1/2 pl-4 bg-[#1F1D26]">
-                <div className="pl-32 pr-64 bg-[#1F1D26] h-screen flex items-center justify-center">
+                <div className="pl-32 pr-64 bg-[#1F1D26] h-screen flex flex-col items-between justify-evenly">
                     <div className='flex-col'>
                         <h1 className="mb-[-40px] text-[120px] font-bold" style={h1Styles}>Cashless</h1>
                         <h1 className='mb-10 text-primary'>
@@ -18,6 +18,13 @@ const Page2 = () => {
 
                     </div>
 
+                    <Image
+                        src="/wristband_and_card.png"
+                        alt="Cashless Logo"
+                        width={400}
+                        height={84}
+                        priority
+                    />
                 </div>
             </div>
             <div className="w-1/2">
@@ -44,16 +51,6 @@ const Page2 = () => {
 
                     </div>
                 </div>
-            </div>
-            <div className="absolute bottom-10 right-10">
-                <Image
-                    src="/cashless.svg"
-                    alt="Cashless Logo"
-                    className="dark:invert"
-                    width={120}
-                    height={84}
-                    priority
-                />
             </div>
         </div>
     )

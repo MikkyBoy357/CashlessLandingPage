@@ -82,7 +82,7 @@ const Page5 = () => {
                         {/* Content of the second div */}
                         <Image
                             className='absolute top-[-75px] left-[-100px]'
-                            src="/pos_phone.png"
+                            src="/pos_phone.svg"
                             alt="Cashless Logo"
                             width={450}
                             height={450}
@@ -91,16 +91,6 @@ const Page5 = () => {
                     </div>
 
                 </div>
-            </div>
-            <div className="absolute bottom-10 right-10">
-                <Image
-                    src="/cashless.svg"
-                    alt="Cashless Logo"
-                    className="dark:invert"
-                    width={120}
-                    height={84}
-                    priority
-                />
             </div>
         </div>
     )
