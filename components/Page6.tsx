@@ -6,14 +6,14 @@ const Page6 = () => {
     return (
         <div className='flex flex-col px-20 pt-16 h-screen text-primary bg-[#1F1D26] relative'>
             <div className='flex flex-col'>
-                <Image
+                {/* <Image
                     className='align-right self-end'
                     src="/cashless.svg"
                     alt="Cashless Logo"
                     width={200}
                     height={84}
                     priority
-                />
+                /> */}
 
                 <div className='flex flex-wrap mt-20 justify-around gap-10'>
                     <div className='flex h-32 w-64 justify-center'>

@@ -6,14 +6,14 @@ const Page5 = () => {
     return (
         <div className='flex flex-col text-primary px-20 pt-16 h-screen bg-[#1F1D26] overflow-x-hidden'>
             <div className='flex flex-col'>
-                <Image
+                {/* <Image
                     className='align-right self-end'
                     src="/cashless.svg"
                     alt="Cashless Logo"
                     width={200}
                     height={84}
                     priority
-                />
+                /> */}
                 <h1 className="mb-[20px] text-[60px] font-bold text" style={h1Styles}>Support soft & hardware</h1>
 
             </div>

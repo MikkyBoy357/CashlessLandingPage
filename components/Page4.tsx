@@ -13,14 +13,14 @@ const Page4 = () => {
     return (
         <div className='flex flex-col bg-[#1F1D26] text-primary'>
             <div className='flex flex-col px-10 pt-16'>
-                <Image
+                {/* <Image
                     className='mr-10 align-right self-end'
                     src="/cashless.svg"
                     alt="Cashless Logo"
                     width={200}
                     height={84}
                     priority
-                />
+                /> */}
                 <h1 className="mb-[20px] text-[60px] font-bold text" style={h1Styles}>Restaurants, magasins, <br />supermarket, station service +</h1>
 
             </div>

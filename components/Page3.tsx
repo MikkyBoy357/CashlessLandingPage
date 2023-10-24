@@ -72,7 +72,7 @@ const Page3 = () => {
                 <div className="pr-[64px] pt-[64px] bg-[#1F1D26] h-screen flex justify-end">
                     <div className='flex-col'>
 
-                        <div className='mb-[0px] justify-end items-end'>
+                        {/* <div className='mb-[0px] justify-end items-end'>
                             <Image
                                 src="/cashless.svg"
                                 alt="Cashless Logo"
@@ -80,7 +80,7 @@ const Page3 = () => {
                                 height={84}
                                 priority
                             />
-                        </div>
+                        </div> */}
                         <h1 className="mb-[-20px] text-[120px] font-bold" style={h1Styles}>Festivals</h1>
                         <div className='flex flex-row'>
                             <div className='h-[180px] mr-10 p-4 border-dashed border-2 border-black'>
